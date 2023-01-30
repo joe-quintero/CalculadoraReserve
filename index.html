@@ -10,30 +10,30 @@
     <h1>Calculo de montos Reserve</h1>
 
     <div>
-        <h2>Reserve a Panama</h2>
+        <h2>Retirar a Panama</h2>
 
         <form>
             <label for="tasaDolar">Tasa Dolar Reserve:</label>
             <input type="number" name="tasaDolar" id="tasaDolar">
             <br><br>
             <label for="recibe">Para recibir:</label>
-            <input type="number" name="recibe" id="recibe">
+            <input type="number" name="recibe" id="recibePanama">
             <br><br>
-            <button type="button" onclick="enviar()">Calcular</button>
+            <button type="button" onclick="RetirarPanama()">Calcular</button>
         </form>
     </div>
 
     <div>
-        <h2>Bs a Reserve</h2>
+        <h2>Cargar Bs a Reserve</h2>
 
         <form>
             <label for="tasaBs">Tasa de Bs de Reserve:</label>
             <input type="tasaBs" name="tasaBs" id="tasaBs">
             <br><br>
-            <label for="recibe">Sienes en Bs:</label>
-            <input type="number" name="recibe" id="recibe">
+            <label for="tienesBs">Tienes en Bs:</label>
+            <input type="number" name="tienesBs" id="tienesBs">
             <br><br>
-            <button type="button" onclick="enviar()">Calcular</button>
+            <button type="button" onclick="CargarBs()">Calcular</button>
         </form>
     </div>
 </body>
