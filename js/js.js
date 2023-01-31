@@ -1,6 +1,6 @@
 
 function RetirarPanama(){
-    let monto=document.getElementById("recibe").value;
+    let monto=document.getElementById("recibePanama").value;
     let tasaDolar=document.getElementById("tasaDolar").value;
     let enviar = (monto*1)/tasaDolar;
     let redondeo = enviar.toFixed(2);
